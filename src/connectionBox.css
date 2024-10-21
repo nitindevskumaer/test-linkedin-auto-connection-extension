@@ -1,0 +1,57 @@
+/* src/AutoConnectPopup.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+  width: 300px;
+  height: 250px;
+}
+
+.autoconnect-popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 4px;
+}
+
+.autoconnect-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #0077b5;
+}
+
+.connections-info {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.autoconnect-btn {
+  background-color: #0077b5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.autoconnect-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.stop-autoconnect-btn {
+  background-color: #f44336;
+}
